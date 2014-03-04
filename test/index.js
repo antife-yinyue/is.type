@@ -1,7 +1,7 @@
 var is = require('../')
 require('should')
 
-describe('test()', function() {
+describe('test', function() {
   it('is.Array()', function() {
     is.Array([]).should.be.true
     is.Array('').should.be.false
