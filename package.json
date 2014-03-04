@@ -1,5 +1,5 @@
 {
-  "name": "is",
+  "name": "is.type",
   "version": "0.0.1",
   "description": "What's type of the Object? Let me tell you.",
   "keywords": [
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jsw0528/is.git"
+    "url": "https://github.com/jsw0528/is.type.git"
   },
   "author": "junjun.zhang",
   "scripts": {

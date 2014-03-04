@@ -2,20 +2,20 @@
 
 What's type of the Object? Let me tell you.
 
-[![Build Status](https://secure.travis-ci.org/jsw0528/is.png)](http://travis-ci.org/jsw0528/is)
+[![Build Status](https://secure.travis-ci.org/jsw0528/is.type.png)](http://travis-ci.org/jsw0528/is.type)
 
 ---
 
 ## Installation
 
 ```sh
-npm install is
+npm install is.type
 ```
 
 ## Usage
 
 ```js
-var is = require('is')
+var is = require('is.type')
 
 is.Array([])  // true
 is.Object([]) // false
