@@ -2,7 +2,7 @@
 
 What's type of the Object? Let me tell you.
 
-[![Build Status](https://secure.travis-ci.org/jsw0528/is.type.png)](http://travis-ci.org/jsw0528/is.type)
+[![Build Status](https://api.travis-ci.org/jsw0528/is.type.png)](http://travis-ci.org/jsw0528/is.type)
 
 ---
 
