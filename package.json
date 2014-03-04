@@ -1,0 +1,26 @@
+{
+  "name": "is",
+  "version": "0.0.1",
+  "description": "What's type of the Object? Let me tell you.",
+  "keywords": [
+    "isArray",
+    "isObject",
+    "isString",
+    "isNumber",
+    "isFunction",
+    "isDate",
+    "isRegExp",
+    "isEmpty",
+    "isBlank"
+  ],
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsw0528/is.git"
+  },
+  "author": "junjun.zhang",
+  "license": "MIT"
+}
