@@ -2,6 +2,8 @@
 
 What's type of the Object? Let me tell you.
 
+[![Build Status](https://secure.travis-ci.org/jsw0528/is.png)](http://travis-ci.org/jsw0528/is)
+
 ---
 
 ## Installation

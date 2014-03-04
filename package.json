@@ -22,5 +22,8 @@
     "url": "https://github.com/jsw0528/is.git"
   },
   "author": "junjun.zhang",
+  "scripts": {
+    "test": "mocha test/"
+  },
   "license": "MIT"
 }
