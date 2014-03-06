@@ -2,21 +2,21 @@ var is = module.exports = {}
 
 ;[].concat('String', 'Number', 'Object', 'Function', 'Date', 'RegExp')
   .forEach(function(type) {
-    is[type] = isType(type)
+    is[type.toLowerCase()] = isType(type)
   })
 
-is['Array'] = Array.isArray
+is['array'] = Array.isArray
 
-is['Empty'] = function(obj) {
+is['empty'] = function(obj) {
   return !!(
-    is.String(obj) && obj.trim().length === 0 ||
-    is.Array(obj) && obj.length === 0 ||
-    is.Object(obj) && Object.keys(obj).length === 0
+    is.string(obj) && obj.trim().length === 0 ||
+    is.array(obj) && obj.length === 0 ||
+    is.object(obj) && Object.keys(obj).length === 0
   )
 }
 
-is['Blank'] = function(obj) {
-  return !!(!obj || is.Empty(obj))
+is['blank'] = function(obj) {
+  return !!(!obj || is.empty(obj))
 }
 
 function isType(type) {

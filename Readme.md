@@ -17,9 +17,9 @@ npm install is.type
 ```js
 var is = require('is.type')
 
-is.Array([])  // true
-is.Object([]) // false
-is.Empty([])  // true
+is.array([])  // true
+is.object([]) // false
+is.empty([])  // true
 
 // more
 console.log(is)

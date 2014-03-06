@@ -1,17 +1,17 @@
 {
   "name": "is.type",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "What's type of the Object? Let me tell you.",
   "keywords": [
-    "isArray",
-    "isObject",
-    "isString",
-    "isNumber",
-    "isFunction",
-    "isDate",
-    "isRegExp",
-    "isEmpty",
-    "isBlank"
+    "is.array",
+    "is.object",
+    "is.string",
+    "is.number",
+    "is.function",
+    "is.date",
+    "is.regexp",
+    "is.empty",
+    "is.blank"
   ],
   "devDependencies": {
     "mocha": "*",
